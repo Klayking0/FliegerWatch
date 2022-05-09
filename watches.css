@@ -1,0 +1,51 @@
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 95vh;
+	/*to make the height and width responsive*/
+	width: 95vh;
+	background: url(img/flieger_b/watch.png) no-repeat;
+	/*background-color: green;*/
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: green;
+	transform-origin: center;
+}
+
+#hour {
+	width: 95vh;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background: url(img/flieger_b/hours.png) no-repeat;
+	background-size: 100%;
+}
+
+#minute {
+	width: 95vh;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background: url(img/flieger_b/minutes.png) no-repeat;
+	background-size: 100%;
+}
+
+#second {
+	width: 95vh;
+	height: 95vh;
+	top: 0;
+	left: 0;
+	background: url(img/flieger_b/seconds.png) no-repeat;
+	background-size: 100%;
+}
+
+body {
+  background-color: white;
+}
+
